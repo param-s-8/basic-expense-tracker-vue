@@ -1,8 +1,5 @@
 <template>
-  <v-app-bar
-      app
-      dark
-    >
+  <v-app-bar app dark>
       <div class="d-flex align-center">
         <v-img
           alt="Track-It Logo"
@@ -12,22 +9,18 @@
           transition="scale-transition"
           width="40"
         />
-
-        <v-toolbar-title>Track It</v-toolbar-title>
+        <v-toolbar-title class="text-h3">Track It</v-toolbar-title>
       </div>
-
       <v-spacer></v-spacer>
-
-      
     </v-app-bar>
 </template>
 
 <script>
-export default {
-    name: "Navbar"
-}
+
+  export default {
+      name: "Navbar"
+  }
+
 </script>
 
-<style>
-
-</style>
+<style> </style>

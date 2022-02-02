@@ -24,7 +24,7 @@
 
     <Navbar/>
     <v-main>
-      <HelloWorld/>
+      <Dashboard/>
       <v-container
     id="input-usage"
     fluid
@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Dashboard from './components/Dashboard';
 import Navbar from './components/Navbar.vue';
 
 
@@ -44,7 +44,7 @@ export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    Dashboard,
     Navbar
   },
 

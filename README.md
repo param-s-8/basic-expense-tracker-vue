@@ -1,4 +1,4 @@
-# exp-tracker
+# Basic Expense Tracker Website
 
 ## Project setup
 ```

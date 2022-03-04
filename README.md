@@ -1,5 +1,10 @@
 # Basic Expense Tracker Website
 
+Allows you to:
+- Add / Remove Income
+- Add / Remove Expense
+- Check Available Money
+
 ## Project setup
 ```
 npm install
